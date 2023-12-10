@@ -1,0 +1,148 @@
+/* BUY CRYPTO  */
+.buy_crypto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 20rem 30rem 40rem;
+    transition: all 0.4s ease;
+}
+
+body.active .buy_crypto {
+    margin: 10rem 20rem 35rem 20rem;
+    transition: all 0.4s ease;
+}
+
+.buy_crypto .crypto-1 {
+    text-align: center;
+}
+
+.buy_crypto .crypto-1 .crypto-2 {
+    font-size: 27px;
+    margin-bottom: 10px;
+    color: #8a8d93;
+    font-weight: 700;
+}
+
+.buy_crypto .crypto-1 p {
+    color: #8a8d93;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.buy_crypto .crypto-1 .coms-1 {
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    grid-gap: 30px;
+    padding: 0 40px;
+    margin: 30px 40px;
+    margin-top: 30px;
+    transition: all 0.4s ease;
+}
+
+body.active .buy_crypto .crypto-1 .coms-1 {
+    grid-gap: 30px 0;
+    padding: 0 80px;
+    margin: 30px 80px;
+    transition: all 0.4s ease;
+}
+
+.buy_crypto .crypto-1 .coms-1 button {
+    width: 110px;
+    height: 41px;
+    font-size: 16px;
+    border-radius: 3px;
+    outline: none;
+    background-color: #DB6574;
+    border: 1px solid #DB6574;
+    color: #fff;
+    text-transform: lowercase;
+    font-weight: 100;
+    -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    cursor: pointer;
+}
+
+.buy_crypto .crypto-1 .coms-1 button:hover {
+    background-color: #d44658;
+    border-color: #d13c4f;
+}
+
+.buy_crypto .crypto-1 .coms-1 button:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgb(219 101 116 / 50%);
+    box-shadow: 0 0 0 0.2rem rgb(219 101 116 / 50%);
+}
+
+@media screen and (max-width: 1200px) {
+    /* BUY CRYPTO  */
+    body.active .buy_crypto .crypto-1 .coms-1 {
+        grid-gap: 30px;
+        padding: 0 70px;
+        margin: 30px 70px;
+    }
+}
+
+@media screen and (max-width: 915px) {
+    .buy_crypto {
+        margin: 10rem 20rem 40rem 35rem;
+    }
+    body.active .buy_crypto {
+        margin: 10rem 20rem 40rem 20rem;
+        transition: all 0.4s ease;
+    }
+}
+@media screen and (max-width: 768px) {
+    .buy_crypto {
+        margin: 10rem 20rem 40rem 32rem;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    /* BUY CRYPTO  */
+    .buy_crypto {
+        margin: 10rem 2rem 30rem 2rem;
+    }
+
+    body.active .buy_crypto {
+        margin: 10rem 2rem 35rem 2rem;
+    }
+
+    .buy_crypto .crypto-1 .coms-1 {
+        grid-gap: 30px;
+        padding: 0 60px;
+        margin: 30px 0px;
+    }
+    
+    body.active .buy_crypto .crypto-1 .coms-1 {
+        grid-gap: 30px;
+        padding: 0 60px;
+        margin: 30px 50px;
+    }
+    
+}
+
+@media screen and (max-width: 414px) {
+    .buy_crypto {
+        margin: 10rem 2rem 30rem 2rem;
+    }
+
+    body.active .buy_crypto {
+        margin: 10rem 2rem 35rem 2rem;
+    }
+
+    .buy_crypto .crypto-1 .coms-1 {
+        grid-gap: 20px 0;
+        padding: 0 30px;
+        margin: 30px 0px;
+    }
+    
+    body.active .buy_crypto .crypto-1 .coms-1 {
+        grid-gap: 20px 0;
+        padding: 0 30px;
+        margin: 30px 0px;
+    }
+    
+}

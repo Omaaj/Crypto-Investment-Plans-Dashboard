@@ -1,0 +1,646 @@
+/* WALLET */
+.wallet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem 18rem 35rem 31rem;
+    transition: all 0.4s ease;
+}
+
+body.active .wallet {
+    margin: 7rem 18rem 35rem 20rem;
+    transition: all 0.4s ease;
+}
+
+.wallet .wallet-1 {
+    width: 100%;
+}
+
+.wallet .wallet-1 label {
+    display: block;
+    font-size: 15px;
+    color: #8a8d93;
+    margin-bottom: 15px;
+}
+
+.wallet .wallet-1 select {
+    width: 100%;
+    height: 41px;
+    color: #979a95;
+    background: transparent;
+    padding: 0.45rem 0.75rem;
+    font-size: 16px;
+    outline: none;
+    text-transform: capitalize;
+    border-radius: 3px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    border: 1px solid #444951;
+
+}
+
+.wallet .wallet-1 select:focus {
+    border-color: #DB6574;
+    transition: all 0.4s ease;
+}
+
+.wallet .wallet-1 select option {
+    background: #2d3035;
+    color: #a5a7ab;
+}
+
+.wallet .wallet-1 .btns {
+    text-align: center;
+    width: 100%;
+    margin-top: 24px;
+    padding: 0 5rem;
+}
+
+.wallet .wallet-1 .btns button {
+    width: 100%;
+    height: 41px;
+    outline: none;
+    font-size: 16px;
+    background-color: #DB6574;
+    border: 1px solid #DB6574;
+    border-radius: 3px;
+    white-space: nowrap;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 300;
+    -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    cursor: pointer;
+}
+
+.wallet .wallet-1 .btns button:hover {
+    background-color: hsl(352, 62%, 55%);
+    border-color: #d13c4f;
+}
+
+.wallet .wallet-1 .btns button:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgb(219 101 116 / 50%);
+    box-shadow: 0 0 0 0.2rem rgb(219 101 116 / 50%);
+}
+
+/* CONNET TO WALLET */
+.connet {
+    margin: 2rem 2rem 2rem 20rem;
+    transition: all 0.4s ease;
+}
+body.active .connet {
+    margin: 2rem 2rem 2rem 2rem;
+    transition: all 0.4s ease;
+}
+
+.connet .wallet1 {
+    text-align: center;
+    color: #8a8d93;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 50px 0 10px 0px;
+}
+
+.connet .wallet-top .wallet-toss {
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    transition: all 0.4s ease;
+}
+
+.connet .wallet-top .wallet-toss .dropplet {
+    margin: 25px 15px;
+    transition: all 0.4s ease;
+}
+
+.connet .wallet-top .images {
+    width: 150px;
+    height: 150px;
+    transition: all 0.4s ease;
+}
+.connet .wallet-top .images img{
+    width: 100%;
+    height: 100%;
+}
+
+.connet .wallet-top .slope {
+    text-align: center;
+    font-size: 21px;
+    color: #fff;
+    font-weight: 700;
+    margin: 10px;
+    text-transform: capitalize;
+    transition: all 0.4s ease;
+}
+
+.connet p {
+    text-align: center;
+    font-size: 16px;
+    color: #8a8d93;
+    margin: 10px 0;
+    user-select: none;
+}
+
+.connet p a {
+    color: #f7921a;
+    transition: all 0.4s ease;
+
+}
+
+.connet p a:hover,
+.connet p a:focus {
+    color: #c52e41;
+    text-decoration: underline;
+    transition: all 0.4s ease;
+
+}
+
+/* PHRASE */
+.phrase {
+    margin: 3rem 2rem 10rem 20rem;
+    transition: all 0.4s ease;
+}
+
+body.active .phrase {
+    margin: 3rem 2rem 10rem 2rem;
+    transition: all 0.4s ease;
+}
+
+.phrase .phrase-1 {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    color: #000000;
+    font-size: 16px;
+    height: 100%;
+    line-height: 50px;
+    margin-bottom: 50px;
+    user-select: none;
+}
+
+.phrase .phrase-1 .keystone {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.phrase .phrase-1 .keystone.phrase1 {
+    background: #f7921a;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+
+.phrase .phrase-1 .keystone.keystone1 {
+    background: #f7921a;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+
+.phrase .phrase-1 .keystone.private1 {
+    background: #f7921a;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+
+.phrase .first {
+    margin: 0 2rem 4rem 2rem;
+    transition: all 0.4s ease;
+}
+
+.phrase .third label,
+.phrase .second label, 
+.phrase .first label {
+    display: block;
+    text-align: center;
+    color: #8a8d93;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 13px;
+    transition: all 0.4s ease;
+}
+
+.phrase .third input,
+.phrase .second .current,
+.phrase .first input {
+    outline: none;
+    height: 100px;
+    background: transparent;
+    width: 100%;
+    padding: 7px 12px 50px 12px;
+    color: #979a9f;
+    border: 1px solid #444951;
+    font-size: 14px;
+    border-radius: 3px;
+    font-weight: 100;
+    /* text-transform: capitalize; */
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+.phrase .third input:focus,
+.phrase .second .current:focus,
+.phrase .first input:focus {
+    border-color: #DB6574;
+    transition: all 0.4s ease;
+}
+.phrase .third input::placeholder,
+.phrase .second .current::placeholder,
+.phrase .first input::placeholder {
+    color: #979a9f;
+    font-weight: 100;
+    font-weight: 14px;
+}
+
+.phrase .second .icons {
+    text-align: center;
+    color: #8a8d93;
+    margin: 15px 0;
+    transition: all 0.4s ease;
+}
+
+.phrase .second .pass {
+    text-align: center;
+    position: relative;
+    padding: 0 12rem;
+    transition: all 0.4s ease;
+}
+
+body.active .phrase .second .pass {
+    padding: 0 20rem;
+    transition: all 0.4s ease;
+}
+
+.phrase .second .pass input {
+    position: relative;
+    width: 100%;
+    height: 41px;
+    outline: none;
+    background: transparent;
+    padding: 0 60px 0 12px;
+    color: #979a9f;
+    border: 1px solid #444951;
+    font-size: 14px;
+    border-radius: 3px;
+    font-weight: 100;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+
+.phrase .second .pass input::placeholder {
+    color: #979a9f;
+    font-weight: 100;
+    font-weight: 14px;
+}
+
+.phrase .second .pass input:focus {
+    border-color: #DB6574;
+    transition: all 0.4s ease;
+}
+
+.phrase .second .pass span {
+    display: none;
+    top: 0;
+    position: absolute;
+    right: 210px;
+    font-weight: 1000;
+    cursor: pointer;
+    font-size: 11px;
+    color: #8a8d93;
+    /* width: 100%; */
+    height: 100%;
+    line-height: 41px;
+    transition: all 0.4s ease;
+    text-align: center;
+
+}
+
+
+body.active .phrase .second .pass span {
+    right: 340px;
+    transition: all 0.4s ease;
+}
+
+.phrase .second p,
+.phrase .first p {
+    margin: 20px 0 30px 0;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #8a8d93;
+    transition: all 0.4s ease;
+}
+
+
+.phrase .third .btnss,
+.phrase .second .btnss,
+.phrase .first .btnss {
+    text-align: center;
+    transition: all 0.4s ease;
+    padding: 0 14rem;
+}
+
+body.active .phrase .third .btnss,
+body.active .phrase .second .btnss,
+body.active .phrase .first .btnss {
+    padding: 0 22rem;
+    transition: all 0.4s ease;
+}
+
+
+.phrase .third .btnss button,
+.phrase .second .btnss button,
+.phrase .first .btnss button {
+    width: 100%;
+    height: 41px;
+    outline: none;
+    font-size: 16px;
+    background-color: #d13c4f;
+    border: 1px solid #d13c4f;
+    border-radius: 3px;
+    white-space: nowrap;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    cursor: no-drop;
+    opacity: 0.5;
+    -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.phrase .third .btnss button#port {
+    margin-top: 20px;
+}
+
+.phrase .third .btnss button.appear,
+.phrase .second .btnss button.appear,
+.phrase .first .btnss button.appear {
+    cursor: pointer;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.phrase .third .btnss button:focus,
+.phrase .second .btnss button:focus,
+.phrase .first .btnss button:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgb(219 101 116 / 50%);
+    box-shadow: 0 0 0 0.2rem rgb(219 101 116 / 50%);
+}
+
+.phrase .second {
+    display: none;
+    margin: 0 2rem 4rem 2rem;
+    transition: all 0.4s ease;
+}
+.phrase .third {
+    display: none;
+    margin: 0 2rem 4rem 2rem;
+    transition: all 0.4s ease;
+}
+
+
+.phrase p {
+    text-align: center;
+    font-size: 16px;
+    color: #8a8d93;
+    margin: 10rem 0;
+    user-select: none;
+}
+
+.phrase p a {
+    color: #f7921a;
+    transition: all 0.4s ease;
+
+}
+
+.phrase p a:hover,
+.phrase p a:focus {
+    color: #c52e41;
+    text-decoration: underline;
+    transition: all 0.4s ease;
+}
+
+/* SUCCESS */
+.success {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.success-1 {
+    text-align: center;
+    margin-top: 2rem ;
+    transition: all 0.4s ease;
+}
+
+body.active .success-1 {
+    margin: 40px 2rem 10rem 2rem;
+    transition: all 0.4s ease;
+}
+
+.success-1 .images {
+    width: 250px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.success-1 .images img{
+    width: 100%;
+    height: 100%;
+}
+
+.success-1 .display {
+    font-size: 40px;
+    font-weight: 1000;
+    color: #f7921a;
+    margin: 30px 0;   
+}
+
+.success-1 p {
+    text-align: center;
+    font-size: 16px;
+    color: #8a8d93;
+    /* margin:  0; */
+    user-select: none;
+}
+
+.success-1 p a {
+    color: #f7921a;
+    transition: all 0.4s ease;
+}
+
+
+.success-1 p a:hover,
+.success-1 p a:focus {
+    color: #c52e41;
+    text-decoration: underline;
+    transition: all 0.4s ease;
+}
+
+@media screen and (max-width: 1200px) {
+    /* WALLET */
+    .wallet {
+        margin: 7rem 15rem 35rem 30rem;
+    }
+
+    /* PHRASE */
+    .phrase .third .btnss,
+    .phrase .second .btnss,
+    .phrase .first .btnss {
+        padding: 0 8rem;
+    }
+    body.active .phrase .third .btnss,
+    body.active .phrase .second .btnss,
+    body.active .phrase .first .btnss {
+        padding: 0 17rem;
+        transition: all 0.4s ease;
+    }
+    .phrase .second .pass {
+        padding: 0 6rem;
+    }
+    
+    body.active .phrase .second .pass {
+        padding: 0 15rem;
+    }
+
+    .phrase .second .pass span {
+        right: 115px;
+    }
+
+    body.active .phrase .second .pass span {
+        right: 260px;
+    }
+    
+}
+
+@media screen and (max-width: 915px) {
+    /* WALLET */
+    .wallet {
+        margin: 13rem 6rem 47rem 26rem;
+        transition: all 0.4s ease;
+    }
+
+    body.active .wallet {
+        margin: 13rem 10rem 47rem 13rem;
+        transition: all 0.4s ease;
+    }
+
+    .wallet .wallet-1 .btns {
+        text-align: center;
+        width: 100%;
+        margin-top: 24px;
+        padding: 0 2rem;
+    }
+
+    /* PHRASE */
+
+    .phrase {
+        margin: 3rem 2rem 45rem 20rem;
+    }
+    
+    body.active .phrase {
+        margin: 3rem 2rem 45rem 2rem;
+    }
+    
+    .phrase .third .btnss,
+    .phrase .second .btnss,
+    .phrase .first .btnss {
+        padding: 0 4rem;
+    }
+    body.active .phrase .third .btnss,
+    body.active .phrase .second .btnss,
+    body.active .phrase .first .btnss {
+        padding: 0 10rem;
+    }
+
+    .phrase .second .pass {
+        padding: 0 3rem;
+    }
+    
+    body.active .phrase .second .pass {
+        padding: 0 9rem;
+    }
+
+    .phrase .second .pass span {
+        right: 60px;
+    }
+
+    body.active .phrase .second .pass span {
+        right: 160px;
+    }
+    
+}
+
+@media screen and (max-width: 670px) {
+    /* WALLET */
+    .wallet {
+        margin: 9rem 2rem 24rem 2rem;
+    }
+
+    body.active .wallet {
+        margin: 9rem 2rem 24rem 2rem;
+    }
+
+    .wallet .wallet-1 .btns {
+        text-align: center;
+        width: 100%;
+        margin-top: 24px;
+        padding: 0 2rem;
+    }
+
+    /* CONNET TO WALLET */
+    .connet {
+        margin: 2rem 0rem 2rem 0rem;
+    }
+
+    body.active .connet {
+        margin: 2rem 0rem 2rem 0rem;
+    }
+
+    
+    /* PHRASE */
+
+    .phrase {
+        margin: 3rem 2rem 45rem 2rem;
+    }
+    
+    body.active .phrase {
+        margin: 3rem 2rem 45rem 2rem;
+    }
+
+    body.active .phrase .third .btnss,
+    body.active .phrase .second .btnss,
+    body.active .phrase .first .btnss,
+    .phrase .third .btnss,
+    .phrase .second .btnss,
+    .phrase .first .btnss {
+        padding: 0 3rem;
+    }
+    body.active .phrase .second .pass,
+    .phrase .second .pass {
+        padding: 0 1.5rem;
+    }
+    .phrase .second .pass span,
+    body.active .phrase .second .pass span {
+        right: 40px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    /* PHRASE */
+
+    .phrase {
+        margin: 3rem 0.7rem 45rem 0.7rem;
+    }
+    
+    body.active .phrase {
+        margin: 3rem 0.7rem 45rem 0.7rem;
+    }
+    
+}
